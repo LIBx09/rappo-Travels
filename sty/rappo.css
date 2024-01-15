@@ -1,0 +1,96 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+/* nav & logo section */
+
+.head-one-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px;
+}
+.logo-container{
+    display: flex;
+}
+.logo-img{
+    width: 43px;
+    height: 45.008px;
+    position: relative;
+    top: 33px;
+}
+.logo-title{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    position: relative;
+    left: 20px;
+}
+.logo-span{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-span{
+    color: #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav ul li{
+    position: relative;
+    left: 20px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    right: 135px;
+}
+#check{
+    display: none;
+}
+#check-btn{
+    float: right;
+    display: none;
+}
+
+/* Responsive section */
+
+@media screen and (max-width: 992px){
+    nav ul{
+        display: none;
+    }
+    .logo-container{
+        position: relative;
+        right: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .logo-img{
+        
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .logo-title{
+        position: relative;
+        top: 30px;
+        display: flex;
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+    .logo-span{
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+    #check-btn{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+}
